@@ -1,0 +1,60 @@
+Applications Memory Usage (in Kilobytes):
+Uptime: 933625165 Realtime: 1187389262
+
+** MEMINFO in pid 3194 [com.mi.android.globallauncher] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap    45503    45476        0    37871   192512    86781   105730
+  Dalvik Heap     9773     9416      296      530    21401    10701    10700
+ Dalvik Other     1553     1540        4      407                           
+        Stack       36       36        0       24                           
+       Ashmem        2        0        0        0                           
+      Gfx dev    40868    40868        0        0                           
+    Other dev       20        0       20        0                           
+     .so mmap     1319      128      480      128                           
+    .jar mmap        8        8        0        0                           
+    .apk mmap      565        0       84        0                           
+    .ttf mmap        9        0        0        0                           
+    .dex mmap     2824        0     2724        4                           
+    .oat mmap     2079        0       32        0                           
+    .art mmap     6105     5204      440     1744                           
+   Other mmap        9        0        0        4                           
+   EGL mtrack    24660    24660        0        0                           
+    GL mtrack    48952    48952        0        0                           
+      Unknown     2092     2092        0     2241                           
+        TOTAL   229330   178380     4080    42953   213913    97482   116430
+ 
+ App SUMMARY
+                       Pss(KB)
+                        ------
+           Java Heap:    15060
+         Native Heap:    45476
+                Code:     3456
+               Stack:       36
+            Graphics:   114480
+       Private Other:     3952
+              System:    46870
+ 
+               TOTAL:   229330       TOTAL SWAP PSS:    42953
+ 
+ Objects
+               Views:     2057         ViewRootImpl:        1
+         AppContexts:        7           Activities:        1
+              Assets:        7        AssetManagers:        6
+       Local Binders:       57        Proxy Binders:       45
+       Parcel memory:      224         Parcel count:      142
+    Death Recipients:        1      OpenSSL Sockets:        1
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      482
+  PAGECACHE_OVERFLOW:      136          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       72             96    1855/461/25  /data/user/0/com.mi.android.globallauncher/databases/launcher5x6.db
+         4       24             53     10940/70/5  /data/user/0/com.mi.android.globallauncher/databases/sensorsdata
+ 
+ Asset Allocations
+    zip:/data/app/com.mi.android.globallauncher-7JnWovqG-7DrROe1DjYffQ==/base.apk:/assets/fonts/mihome_icons.ttf: 3K
